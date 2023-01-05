@@ -1,0 +1,356 @@
+{
+  "componentsResourceTypes": [
+    "abbvie-spa-ous/components/spa",
+    "wcm/foundation/components/responsivegrid",
+    "nt:unstructured"
+  ],
+  "brandSlug": "",
+  "title": "en",
+  "templateName": "spa-app-template",
+  "designPath": "/libs/settings/wcm/designs/default",
+  "cssClassNames": "spa page basicpage",
+  "language": "en",
+  ":type": "abbvie-spa-ous/components/spa",
+  ":items": {},
+  ":itemsOrder": [],
+  ":path": "/content/abbvie-spa-ous/us/en",
+  ":children": {
+    "/content/abbvie-spa-ous/us/en/home": {
+      "componentsResourceTypes": [
+        "abbvie-spa-ous/components/content/back-to-top",
+        "abbvie-spa-ous/components/structure/page",
+        "abbvie-spa-ous/components/content/image-extension",
+        "abbvie-spa-ous/components/content/tooltip",
+        "abbvie-spa-ous/components/content/headline-text",
+        "abbvie-spa-ous/components/content/container",
+        "wcm/foundation/components/responsivegrid",
+        "nt:unstructured",
+        "abbvie-spa-ous/components/content/icon-bar",
+        "abbvie-spa-ous/components/content/image"
+      ],
+      "brandSlug": "",
+      "title": "AbbVie SPA OUS Home Page",
+      "lastModifiedDate": 1648318581586,
+      "templateName": "spa-page-template",
+      "designPath": "/libs/settings/wcm/designs/default",
+      "cssClassNames": "spa page basicpage",
+      "language": "en",
+      ":type": "abbvie-spa-ous/components/structure/page",
+      ":items": {
+        "root": {
+          "columnCount": 12,
+          "columnClassNames": {
+            "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+          },
+          "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "allowedComponents": {
+            "applicable": false,
+            "components": [
+              {
+                "path": "/conf/abbvie-spa-ous/settings/wcm/templates/spa-page-template/structure/jcr:content/root/abbvie-spa-ous/components/content/back-to-top",
+                "title": "Back To Top"
+              },
+              {
+                "path": "/conf/abbvie-spa-ous/settings/wcm/templates/spa-page-template/structure/jcr:content/root/abbvie-spa-ous/components/content/container",
+                "title": "Container"
+              },
+              {
+                "path": "/conf/abbvie-spa-ous/settings/wcm/templates/spa-page-template/structure/jcr:content/root/abbvie-spa-ous/components/content/experience-fragment",
+                "title": "Experience Fragment"
+              },
+              {
+                "path": "/conf/abbvie-spa-ous/settings/wcm/templates/spa-page-template/structure/jcr:content/root/abbvie-spa-ous/components/content/headline-text",
+                "title": "Headline & Text"
+              },
+              {
+                "path": "/conf/abbvie-spa-ous/settings/wcm/templates/spa-page-template/structure/jcr:content/root/abbvie-spa-ous/components/content/icon-bar",
+                "title": "Icon Bar"
+              },
+              {
+                "path": "/conf/abbvie-spa-ous/settings/wcm/templates/spa-page-template/structure/jcr:content/root/abbvie-spa-ous/components/content/image",
+                "title": "Image"
+              },
+              {
+                "path": "/conf/abbvie-spa-ous/settings/wcm/templates/spa-page-template/structure/jcr:content/root/abbvie-spa-ous/components/content/image-extension",
+                "title": "Image Extension"
+              },
+              {
+                "path": "/conf/abbvie-spa-ous/settings/wcm/templates/spa-page-template/structure/jcr:content/root/abbvie-spa-ous/components/content/tooltip",
+                "title": "Tooltip"
+              }
+            ]
+          },
+          ":items": {
+            "responsivegrid": {
+              "columnCount": 12,
+              "columnClassNames": {
+                "container": "aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--default--1 aem-GridColumn--default--none",
+                "tooltip": "aem-GridColumn aem-GridColumn--default--12",
+                "back_to_top": "aem-GridColumn aem-GridColumn--default--12",
+                "text": "aem-GridColumn aem-GridColumn--default--12",
+                "back_to_top_311405909": "aem-GridColumn aem-GridColumn--default--12",
+                "text_1887122849": "aem-GridColumn aem-GridColumn--default--12"
+              },
+              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "allowedComponents": {
+                "applicable": false,
+                "components": [
+                  {
+                    "path": "/content/abbvie-spa-ous/us/en/home/jcr:content/root/responsivegrid/abbvie-spa-ous/components/content/back-to-top",
+                    "title": "Back To Top"
+                  },
+                  {
+                    "path": "/content/abbvie-spa-ous/us/en/home/jcr:content/root/responsivegrid/abbvie-spa-ous/components/content/container",
+                    "title": "Container"
+                  },
+                  {
+                    "path": "/content/abbvie-spa-ous/us/en/home/jcr:content/root/responsivegrid/abbvie-spa-ous/components/content/experience-fragment",
+                    "title": "Experience Fragment"
+                  },
+                  {
+                    "path": "/content/abbvie-spa-ous/us/en/home/jcr:content/root/responsivegrid/abbvie-spa-ous/components/content/headline-text",
+                    "title": "Headline & Text"
+                  },
+                  {
+                    "path": "/content/abbvie-spa-ous/us/en/home/jcr:content/root/responsivegrid/abbvie-spa-ous/components/content/icon-bar",
+                    "title": "Icon Bar"
+                  },
+                  {
+                    "path": "/content/abbvie-spa-ous/us/en/home/jcr:content/root/responsivegrid/abbvie-spa-ous/components/content/image",
+                    "title": "Image"
+                  },
+                  {
+                    "path": "/content/abbvie-spa-ous/us/en/home/jcr:content/root/responsivegrid/abbvie-spa-ous/components/content/image-extension",
+                    "title": "Image Extension"
+                  },
+                  {
+                    "path": "/content/abbvie-spa-ous/us/en/home/jcr:content/root/responsivegrid/abbvie-spa-ous/components/content/tooltip",
+                    "title": "Tooltip"
+                  }
+                ]
+              },
+              ":items": {
+                "text": {
+                  "id": "headline-text-1dbf8e1f2b",
+                  "text": "<p>Hello World!</p>",
+                  "richText": true,
+                  ":type": "abbvie-spa-ous/components/content/headline-text",
+                  "dataLayer": {
+                    "headline-text-1dbf8e1f2b": {
+                      "@type": "abbvie-spa-ous/components/content/headline-text",
+                      "xdm:text": "<p>Hello World!</p>"
+                    }
+                  }
+                },
+                "text_1887122849": {
+                  "id": "headline-text-05fc84210c",
+                  "text": "<p>Mahedi Sabuj</p>\r\n",
+                  "richText": true,
+                  ":type": "abbvie-spa-ous/components/content/headline-text",
+                  "dataLayer": {
+                    "headline-text-05fc84210c": {
+                      "@type": "abbvie-spa-ous/components/content/headline-text",
+                      "repo:modifyDate": "2022-03-03T09:38:39Z",
+                      "xdm:text": "<p>Mahedi Sabuj</p>\r\n"
+                    }
+                  }
+                },
+                "tooltip": {
+                  "tooltipIconSize": "medium",
+                  "tooltipButtonAlignment": "align-self-center",
+                  "tooltipPlacement": "top",
+                  "tooltipText": "How psoriasis symptoms affect life",
+                  ":itemsOrder": [
+                    "icon_bar"
+                  ],
+                  ":type": "abbvie-spa-ous/components/content/tooltip",
+                  ":items": {
+                    "icon_bar": {
+                      "iconLinks": [
+                        {
+                          "iconSource": "local",
+                          "iconSVG": "",
+                          "fontAwesomeIcon": "",
+                          "linkUrl": "",
+                          "linkTitle": "",
+                          "targetType": "_blank",
+                          "iconSize": "icon-sm",
+                          "iconColor": "text-danger"
+                        },
+                        {
+                          "iconSource": "fontAwesome",
+                          "iconSVG": "",
+                          "fontAwesomeIcon": "",
+                          "linkUrl": "",
+                          "linkTitle": "",
+                          "targetType": "_blank",
+                          "iconSize": "icon-sm",
+                          "iconColor": "text-danger"
+                        },
+                        {
+                          "iconSource": "local",
+                          "iconSVG": "",
+                          "fontAwesomeIcon": "",
+                          "linkUrl": "",
+                          "linkTitle": "",
+                          "targetType": "_self",
+                          "iconSize": "",
+                          "iconColor": "text-white"
+                        }
+                      ],
+                      "iconAlignment": "",
+                      ":type": "abbvie-spa-ous/components/content/icon-bar"
+                    }
+                  }
+                },
+                "back_to_top": {
+                  ":type": "abbvie-spa-ous/components/content/back-to-top"
+                },
+                "back_to_top_311405909": {
+                  ":type": "abbvie-spa-ous/components/content/back-to-top"
+                },
+                "container": {
+                  "columnCount": 12,
+                  "columnClassNames": {
+                    "icon_bar": "aem-GridColumn aem-GridColumn--default--10",
+                    "image_extension": "aem-GridColumn aem-GridColumn--default--10"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--10 aem-Grid--default--10",
+                  "allowedComponents": {
+                    "applicable": false,
+                    "components": []
+                  },
+                  ":items": {
+                    "icon_bar": {
+                      "iconLinks": [
+                        {
+                          "iconSource": "local",
+                          "iconSVG": "",
+                          "fontAwesomeIcon": "",
+                          "linkUrl": "",
+                          "linkTitle": "",
+                          "targetType": "_blank",
+                          "iconSize": "icon-sm",
+                          "iconColor": "text-danger"
+                        },
+                        {
+                          "iconSource": "fontAwesome",
+                          "iconSVG": "",
+                          "fontAwesomeIcon": "",
+                          "linkUrl": "",
+                          "linkTitle": "",
+                          "targetType": "_blank",
+                          "iconSize": "icon-sm",
+                          "iconColor": "text-danger"
+                        }
+                      ],
+                      "iconAlignment": "",
+                      ":type": "abbvie-spa-ous/components/content/icon-bar"
+                    },
+                    "image_extension": {
+                      "id": "image-extension-e67d84ee96",
+                      "activeItem": "item_desktop",
+                      ":itemsOrder": [
+                        "item_desktop",
+                        "item_tablet",
+                        "item_mobile"
+                      ],
+                      ":items": {
+                        "item_desktop": {
+                          "id": "image-b861715109",
+                          "src": "/content/abbvie-spa-ous/us/en/home/_jcr_content/root/responsivegrid/container/image_extension/item_desktop.coreimg.jpeg/1648318581582/annika-3---copy---copy.jpeg",
+                          "srcUriTemplate": "/content/abbvie-spa-ous/us/en/home/_jcr_content/root/responsivegrid/container/image_extension/item_desktop.coreimg{.width}.jpeg/1648318581582/annika-3---copy---copy.jpeg",
+                          "lazyThreshold": 0,
+                          "dmImage": false,
+                          "uuid": "188107de-0709-4a03-a474-d1782eb3b42e",
+                          "lazyEnabled": false,
+                          "widths": [],
+                          ":type": "abbvie-spa-ous/components/content/image",
+                          "dataLayer": {
+                            "image-b861715109": {
+                              "@type": "abbvie-spa-ous/components/content/image",
+                              "repo:modifyDate": "2022-03-26T18:16:21Z",
+                              "image": {
+                                "repo:id": "188107de-0709-4a03-a474-d1782eb3b42e",
+                                "repo:modifyDate": "2022-02-16T09:19:51Z",
+                                "@type": "image/jpeg",
+                                "repo:path": "/content/dam/abbvie-lmbc/se/Annika 3 - Copy - Copy.jpg"
+                              }
+                            }
+                          },
+                          "cq:panelTitle": "Desktop"
+                        },
+                        "item_tablet": {
+                          "id": "image-b8a0fd01eb",
+                          "lazyThreshold": 0,
+                          "dmImage": false,
+                          "lazyEnabled": true,
+                          "widths": [],
+                          ":type": "abbvie-spa-ous/components/content/image",
+                          "dataLayer": {
+                            "image-b8a0fd01eb": {
+                              "@type": "abbvie-spa-ous/components/content/image"
+                            }
+                          },
+                          "cq:panelTitle": "Tablet"
+                        },
+                        "item_mobile": {
+                          "id": "image-d868c9d334",
+                          "lazyThreshold": 0,
+                          "dmImage": false,
+                          "lazyEnabled": true,
+                          "widths": [],
+                          ":type": "abbvie-spa-ous/components/content/image",
+                          "dataLayer": {
+                            "image-d868c9d334": {
+                              "@type": "abbvie-spa-ous/components/content/image"
+                            }
+                          },
+                          "cq:panelTitle": "Mobile"
+                        }
+                      },
+                      ":type": "abbvie-spa-ous/components/content/image-extension",
+                      "dataLayer": {
+                        "image-extension-e67d84ee96": {
+                          "shownItems": [
+                            "image-extension-e67d84ee96-item-b861715109"
+                          ],
+                          "@type": "abbvie-spa-ous/components/content/image-extension",
+                          "repo:modifyDate": "2022-03-26T17:55:21Z"
+                        }
+                      }
+                    }
+                  },
+                  ":itemsOrder": [
+                    "icon_bar",
+                    "image_extension"
+                  ],
+                  ":type": "abbvie-spa-ous/components/content/container"
+                }
+              },
+              ":itemsOrder": [
+                "text",
+                "text_1887122849",
+                "tooltip",
+                "back_to_top",
+                "back_to_top_311405909",
+                "container"
+              ],
+              ":type": "wcm/foundation/components/responsivegrid"
+            }
+          },
+          ":itemsOrder": [
+            "responsivegrid"
+          ],
+          ":type": "wcm/foundation/components/responsivegrid"
+        }
+      },
+      ":itemsOrder": [
+        "root"
+      ],
+      ":path": "/content/abbvie-spa-ous/us/en/home",
+      ":hierarchyType": "page"
+    }
+  },
+  ":hierarchyType": "page"
+}

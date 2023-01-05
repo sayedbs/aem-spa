@@ -1,0 +1,33 @@
+.text-image {
+    $this: text-image !default;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+    &--text,
+    &--image {
+        width: 50%;
+    }
+    &--text {
+        &:not(.#{this}--reverse-column) {
+            padding-right: 20px;
+        }
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    &--reverse-column {
+        .#{$this}--text {
+            order: 2;
+            padding-left: 20px;
+        }  
+        .#{$this}--image {
+            order: 1;
+        }
+    }
+}
