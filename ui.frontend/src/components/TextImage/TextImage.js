@@ -23,4 +23,4 @@ export const TextImage = ({reverseColumn,...props}) =>{
     );
 }
 
-MapTo('wknd-spa-react/components/headlinetext')(TextImage, TextImageEditConfig);
+MapTo('wknd-spa-react/components/textimage')(TextImage, TextImageEditConfig);

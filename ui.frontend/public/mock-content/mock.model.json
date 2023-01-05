@@ -45,19 +45,19 @@
                             "content": "<h2>Text image component</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>",
                             "imgSrc": "/mock-content/adobestock-140634652.jpeg",
                             "reverseColumn": false,
-                            ":type": "wknd-spa-react/components/headlinetext"
+                            ":type": "wknd-spa-react/components/textimage"
                         },
                         "textImage2": {
                             "content": "<h2>Zakaria</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>",
                             "imgSrc": "/mock-content/adobestock-140634652.jpeg",
                             "reverseColumn": true,
-                            ":type": "wknd-spa-react/components/headlinetext"
+                            ":type": "wknd-spa-react/components/textimage"
                         },
                         "textImage3": {
                             "content": "<h2>Shihab bhai</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>",
                             "imgSrc": "/mock-content/adobestock-140634652.jpeg",
                             "reverseColumn": false,
-                            ":type": "wknd-spa-react/components/headlinetext"
+                            ":type": "wknd-spa-react/components/textimage"
                         }
                     },
                     ":itemsOrder": [

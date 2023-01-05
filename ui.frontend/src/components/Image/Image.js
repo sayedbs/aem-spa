@@ -12,27 +12,25 @@ export const ImageEditConfig = {
     }
 };
 
-export default class Image extends Component {
+export  const Image = props => {
+// export default class Image extends Component {
 
-    get content() {
+    const content =()=> {
         return <img
                 className="Image-src"
-                src={this.props.src}
-                alt={this.props.alt}
-                title={this.props.title ? this.props.title : this.props.alt} />;
+                src={props.src}
+                alt={props.alt}
+                title={props.title ? props.title : props.alt} />;
     }
 
-    render() {
-        if(ImageEditConfig.isEmpty(this.props)) {
-            return null;
-        }
-
-        return (
-                <div className="Image">
-                    {this.content}
-                </div>
-        );
+    if(ImageEditConfig.isEmpty(props)) {
+        return null;
     }
+
+    return (
+            <div className="Image">
+                {content()}
+            </div>
+    );
 }
-
 MapTo('wknd-spa-react/components/image')(Image, ImageEditConfig);
