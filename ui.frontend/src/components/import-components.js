@@ -24,3 +24,4 @@ import './Card/Card';
 import './TextImage/TextImage';
 import './Teaser/Teaser';
 import './AppHeader/AppHeader';
+import './Carousel/Carousel';

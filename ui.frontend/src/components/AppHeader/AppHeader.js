@@ -12,7 +12,7 @@ export const AppHeaderEditConfig = {
     }
 };
 
-function AppHeader({logo='/assets/images/app-logo2.jpg',...props}) {
+export const  AppHeader = ({logo='/assets/images/app-logo2.jpg',...props}) => {
   return (
     <header className='app-header'>
       <div className='app-header-content'>

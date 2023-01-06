@@ -13,7 +13,7 @@
             "language": "en",
             "designPath": "/libs/settings/wcm/designs/default",
             "templateName": "spa-page-template",
-            "cssClassNames": "spa page basicpage",
+            "cssClassNames": "center",
             "title": "AEM custom site with SPA",
             "lastModifiedDate": 1588717986180,
             
@@ -25,25 +25,24 @@
                             "logo": "/assets/images/app-logo.png",
                             ":type": "wknd-spa-react/components/app-header"
                         },
+                        "banner_carousel": {
+                            ":type": "wknd-spa-react/components/carousel"
+                        },
                         "text": {
-                            "text": "<h1>Hello World!</h1>",
+                            "text": "<h1>AEM React Single Page Application (SPA)</h1>",
                             "richText": true,
                             ":type": "wknd-spa-react/components/text"
                         },
-                        "text_23828680": {
-                            "text": "<p>Mock Model JSON!</p>\r\n",
-                            "richText": true,
-                            ":type": "wknd-spa-react/components/text"
-                        },
+                       
                         "image": {
                             "alt": "Rock Climber in New Zealand",
                             "title": "Rock Climber in New Zealand",
-                            "src": "/mock-content/adobestock-140634652.jpeg",
+                            "src": "/assets/images/banner.jpg",
                             ":type": "wknd-spa-react/components/image"
                         },
                         "textImage": {
-                            "content": "<h2>Text image component</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>",
-                            "imgSrc": "/mock-content/adobestock-140634652.jpeg",
+                            "content": "<h2>The application of knowledge to reach practical goals in a specifiable and reproducible way.</h2> <p>Technology is the application of knowledge to reach practical goals in a specifiable and reproducible way. The word technology may also mean the product of such an endeavor. The use of technology is widely prevalent in medicine, science, industry, communication, transportation, and daily life.</p><a href='#'>Read more ..</a>",
+                            "imgSrc": "/assets/images/cycle.png",
                             "reverseColumn": false,
                             ":type": "wknd-spa-react/components/textimage"
                         },
@@ -62,8 +61,8 @@
                     },
                     ":itemsOrder": [
                         "app_header",
+                        "banner_carousel",
                         "text",
-                        "text_23828680",
                         "image",
                         "textImage",
                         "textImage2",
